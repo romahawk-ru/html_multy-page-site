@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Lobster';
+  font-family: 'Lobster', sans-serif;
   font-weight: 400;
   font-size: 48px;
 }
@@ -45,6 +45,7 @@ a {
 }
 
 .menu-link {
+  font-family: 'Lobster', sans-serif;
   font-weight: 400;
   font-size: 48px;
   color: black;
@@ -105,6 +106,7 @@ a {
   width: 671px;
   height: 73px;
   border: none;
+  font-family: 'Lobster', sans-serif;
   font-size: 30px;
   font-weight: 400;
   outline: none;
@@ -205,8 +207,9 @@ a {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-size: 30px;
+  font-family: 'Lobster', sans-serif;
   font-weight: 400;
+  font-size: 30px;
   color: #000000;
 }
 
@@ -221,8 +224,9 @@ a {
   align-items: center;
   text-align: right;
   justify-content: space-between;
-  font-size: 48px;
+  font-family: 'Lobster', sans-serif;
   font-weight: 400;
+  font-size: 48px;
   color: #000000;
 }
 
@@ -274,12 +278,14 @@ a {
   display: flex;
   align-items: center;
   flex-direction: row;
+  font-family: 'Lobster', sans-serif;
   font-weight: 400;
   font-size: 28px;
   color: #000000;
 }
 
 .footer-item-text {
+  font-family: 'Lobster', sans-serif;
   font-weight: 400;
   color: #000000;
 }
