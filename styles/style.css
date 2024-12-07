@@ -2,8 +2,8 @@
 @font-face {
   font-family: 'Lobster';
   src: local('LobsterRegular'), local('Lobster-Regular'),
-    url('/fonts/lobster-regular.woff2') format('woff2'),
-    url('/fonts/lobster-regular.woff') format('woff');
+    url('../fonts/lobster-regular.woff2') format('woff2'),
+    url('../fonts/lobster-regular.woff') format('woff');
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -134,7 +134,7 @@ a {
   right: 6px;
   width: 60px;
   height: 60px;
-  background-image: url("/img/search-icon.png");
+  background-image: url("../img/search-icon.png");
 }
 
 .header-logo {
