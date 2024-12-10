@@ -1,0 +1,175 @@
+@media (max-width: 1024px) {
+
+  /* header */
+
+  .header-container {
+    padding: 0 15px 0 15px;
+  }
+
+  .menu-link {
+    font-size: 38px;
+  }
+
+  .menu-link-menu {
+    margin: 0 15px 0 0;
+  }
+
+  .menu-link-burger-btn {
+    margin: 0 50px 0 0;
+  }
+
+  .header-form-input {
+    width: 100%;
+  }
+
+  /* main */
+
+  .main-container {
+    padding: 25px;
+  }
+
+  .card-box:not(:last-child) {
+    margin: 0 25px 0 0;
+  }
+
+  .card-box:nth-child(2) > .card-item {
+    margin: 0;
+  }
+
+  .card-item {
+    margin: 0 0 25px 0;
+  }
+
+  .card-item-text-box-title {
+    font-size: 38px;
+  }
+
+  /* footer */
+
+  .footer-item-text {
+    font-size: 38px;
+  }
+
+  .footer-item-link > span {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+  /* header */
+
+  .header-container {
+    padding: 0 0 0 5px;
+    align-items: flex-start;
+    height: 120px;
+  }
+
+  .header-menu {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .menu-link:last-child {
+    display: none;
+  }
+
+  .menu-link-menu {
+    margin: 0 0 15px 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .menu-link-burger-btn {
+    margin: 0;
+  }
+
+  .header-logo {
+    display: none;
+  }
+
+  .header-form {
+    background-color: #FFFFFF;
+  }
+
+  .header-form-input {
+    width: 160px;
+    height: 73px;
+  }
+
+  .header-form-input-btn {
+    width: 63px;
+    height: 67px;
+  }
+
+  .header-form-input-btn::before {
+    top: 5px;
+    right: 3px;
+    width: 57px;
+    height: 57px;
+  }
+
+
+  /* main */
+
+
+  .main-container {
+    padding: 20px 20px 87px 20px;
+  }
+
+  .card-list {
+    flex-direction: column;
+  }
+
+  .card-item {
+    margin: 0 0 20px 0;
+  }
+
+  .card-box:nth-child(2) > .card-item {
+    margin-top: 0;
+  }
+
+  .card-item-text-box-title {
+    margin: 0 0 20px 0;
+  }
+
+
+  /* footer */
+
+  .footer-container {
+    padding: 0 15px;
+  }
+  
+  .footer-item-link {
+    margin: 0 10px 0 0;
+  }
+
+  .footer-item-link:nth-child(3) {
+    display: none;
+  }
+
+  .footer-item-text {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .footer-item-link-img {
+    margin: 0;
+  }
+
+  .footer-item-link-img-ph {
+    width: 36px;
+    height: 38px;
+  }
+
+  .footer-item-link-img-ml {
+    width: 36px;
+    height: 26px;
+  }
+}
