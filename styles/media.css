@@ -53,6 +53,23 @@
   .footer-item-link > span {
     display: none;
   }
+
+  /* ABOUT Page */
+
+  .about-item:not(:last-child) {
+    margin: 0 20px 0 0;
+  }
+
+  .about-item-describe-img {
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+  }
+
+  .about-item-describe-link:not(:last-child) {
+    margin: 0 0 10px 0;
+  }
+
 }
 
 
@@ -74,6 +91,7 @@
   .header-menu {
     justify-content: flex-start;
     flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .menu-link:last-child {
@@ -131,12 +149,54 @@
     margin: 0 0 20px 0;
   }
 
+  .card-box:not(:last-child) {
+    margin: 0;
+  }
+
   .card-box:nth-child(2) > .card-item {
     margin-top: 0;
   }
 
   .card-item-text-box-title {
     margin: 0 0 20px 0;
+  }
+
+  /* ABOUT Page */
+
+  .about {
+    padding: 0 0 25px 0;
+  }
+
+  .about-list {
+    flex-direction: column;
+  }
+
+  .about-item:not(:last-child) {
+    margin: 0 0 40px 0;
+  }
+
+  .about-item-text {
+    font-size: 24px;
+  }
+
+  .about-item-describe {
+    font-size: 24px;
+  }
+
+  .about-item-definition-title {
+    font-size: 24px;
+  }
+
+  .about-stat-item {
+    padding: 20px 10px;
+  }
+
+  .about-stat-item-count {
+    font-size: 40px;
+  }
+
+  .about-stat-item-text {
+    font-size: 20px;
   }
 
 
