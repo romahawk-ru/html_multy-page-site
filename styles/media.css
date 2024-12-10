@@ -44,16 +44,6 @@
     font-size: 38px;
   }
 
-  /* footer */
-
-  .footer-item-text {
-    font-size: 38px;
-  }
-
-  .footer-item-link > span {
-    display: none;
-  }
-
   /* ABOUT Page */
 
   .about-item:not(:last-child) {
@@ -70,6 +60,24 @@
     margin: 0 0 10px 0;
   }
 
+  /* COURSES Page */
+  .courses {
+    padding: 0 0 70px 0;
+  }
+
+  .courses-item {
+    max-width: 450px;
+  }
+
+  /* footer */
+
+  .footer-item-text {
+    font-size: 38px;
+  }
+
+  .footer-item-link > span {
+    display: none;
+  }
 }
 
 
@@ -197,6 +205,16 @@
 
   .about-stat-item-text {
     font-size: 20px;
+  }
+
+  /* COURSES Page */
+
+  .courses {
+    padding: 0;
+  }
+
+  .courses-item:nth-last-child(-n+3) {
+    margin: 0 0 40px 0;
   }
 
 
