@@ -16,6 +16,7 @@
 }
 
 body {
+  position: relative;
   font-family: 'Lobster', sans-serif;
   font-weight: 400;
   font-size: 48px;
@@ -29,6 +30,14 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.btn-reset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
 }
 
 
@@ -62,15 +71,19 @@ a {
 }
 
 .menu-link-menu {
-  margin: 0 25px 0 0;
+  margin: 0 160px 0 0;
   padding: 0;
   display: flex;
   align-items: center;
 }
 
+.menu-link-title {
+  margin: 0 25px 0 0;
+}
+
 .menu-link-burger-btn {
   position: relative;
-  margin: 0 190px 0 0;
+  margin: 0 30px 0 0;
   display: flex;
   width: 102px;
   height: 11px;
@@ -179,6 +192,10 @@ a {
   background-color: #FFFFFF;
 }
 
+  .card-box:nth-child(3) > .card-item:first-child > a > .card-item-text {
+    max-width: 220px;
+  }
+
 .card-item {
   margin: 0 0 37px 0;
   width: 100%;
@@ -189,7 +206,7 @@ a {
 
 .card-item > a {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -391,6 +408,75 @@ a {
 .courses-item-img {
   width: 100%;
 }
+
+/* Burger menu */
+
+.burger-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 100px 30px 30px 30px;
+  width: 100%;
+  max-width: 550px;
+  height: 100%;
+  background-color: #D9D9D9;
+}
+
+.burger-item:not(:last-child) {
+  margin: 0 0 25px 0;
+}
+
+.burger-item-link {
+  color: #000000;
+}
+
+.burger-menu-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+}
+
+.burger-menu-btn::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 0;
+  border-radius: 50px;
+  width: 45px;
+  height: 5px;
+  background-color: #000000;
+  transform: rotate(45deg);
+}
+
+.burger-menu-btn::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 0;
+  border-radius: 50px;
+  width: 45px;
+  height: 5px;
+  background-color: #000000;
+  transform: rotate(-45deg);
+}
+
+.burger-menu-active {
+  display: block;
+}
+
+/* .burger-menu-btn > span {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 45px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: #000000;
+} */
 
 /* footer */
 

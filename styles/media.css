@@ -110,6 +110,11 @@
     margin: 0 0 15px 0;
     justify-content: flex-start;
     flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .menu-link-title {
+    margin: 0 0 25px 0;
   }
 
   .menu-link-burger-btn {
