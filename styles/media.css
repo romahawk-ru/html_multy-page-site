@@ -106,7 +106,7 @@
     flex-direction: column;
   }
 
-  .menu-link:last-child {
+  .menu-link-entrance {
     display: none;
   }
 
@@ -228,6 +228,70 @@
 
   .courses-item:nth-last-child(-n+3) {
     margin: 0 0 40px 0;
+  }
+
+  /* ENTRANSE Page */
+
+  .entranse-title {
+    margin: 0 0 32px 0;
+    font-size: 36px;
+  }
+
+  .entranse-input {
+    margin: 0 0 25px 0;
+    padding: 15px 20px;
+    font-size: 24px;
+  }
+
+  .entranse-input:last-child {
+    margin: 0 0 14px 0;
+  }
+
+  .entranse-input::placeholder {
+    font-size: 24px;
+  }
+
+  .entranse-link-password {
+    font-size: 24px;
+  }
+
+  .entranse-link  {
+    padding: 10px 10px;
+    font-size: 30px;
+  }
+
+  /* REGISTER Page */
+
+  .register-box {
+    padding: 30px;
+  }
+
+  .register-title {
+    font-size: 36px;
+  }
+
+  .register-input {
+    padding: 12px 17px;
+    font-size: 16px;
+  }
+
+  .register-input::placeholder {
+    font-size: 16px;
+  }
+
+  .register-input:nth-child(6) {
+    margin: 0 0 30px 0;
+  }
+
+  .register-btn {
+    padding: 20px 70px;
+    font-size: 24px;
+  }
+
+  /* Burger menu */
+
+  .burger-item-link {
+    font-size: 32px;
   }
 
 

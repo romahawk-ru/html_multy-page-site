@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="../styles/normalize.css">
   <link rel="stylesheet" href="../styles/style.css">
   <link rel="stylesheet" href="../styles/media.css">
-  <title>Вход</title>
+  <title>Регистрация</title>
 </head>
 <body>
 
@@ -29,15 +29,17 @@
 
   <main class="main">
     <div class="container main-container">
-      <section class="entranse">
-        <div class="entrance-box">
-          <h3 class="entranse-title">Вход в профиль</h3>
-          <form class="entranse-form" action="">
-            <input class="entranse-input" type="text" name="first" placeholder="Электронная почта" required id="first">
-            <input class="entranse-input" type="password" name="password" placeholder="Пароль" required id="password">
-            <a class="entranse-link-password" href="http://">Забыли пароль?</a>
-            <button class="entranse-link entranse-btn btn-reset" type="submit" id="entranse-btn">Войти</button>
-            <a class="entranse-link" href="http://">Зарегистрироваться</a>
+      <section class="register">
+        <div class="register-box">
+          <h3 class="register-title">Регистрация</h3>
+          <form class="register-form" action="">
+            <input class="register-input" type="text" name="user-name" placeholder="Имя" required id="user-name">
+            <input class="register-input" type="text" name="user-soname" placeholder="Фамилия" required id="user-soname">
+            <input class="register-input" type="text" name="user-email" placeholder="Электронная почта" required id="user-email">
+            <input class="register-input" type="text" name="user-phone" placeholder="Номер телефона" required id="user-phone">
+            <input class="register-input" type="text" name="user-password" placeholder="Пароль" required id="user-password">
+            <input class="register-input" type="text" name="user-passwords" placeholder="Повторите пароль" required id="user-password">
+            <button class="register-btn btn-reset" type="submit" id="register-btn">Закончить регистрацию</button>
           </form>
         </div>
       </section>
@@ -81,7 +83,7 @@
         <a class="burger-item-link" href="./entrance.html">Войти</a>
       </li>
       <li class="burger-item">
-        <a class="burger-item-link" href="./register.html">Зарегистрироваться</a>
+        <a class="burger-item-link" href="http://">Зарегистрироваться</a>
       </li>
       <li class="burger-item">
         <a class="burger-item-link" href="./courses.html">Все курсы</a>
