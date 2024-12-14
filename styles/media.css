@@ -22,6 +22,10 @@
     width: 100%;
   }
 
+  .header-menu-link {
+    margin: 0;
+  }
+
   /* main */
 
   .main-container {
@@ -144,6 +148,10 @@
     right: 3px;
     width: 57px;
     height: 57px;
+  }
+
+  .header-menu-link {
+    max-width: 250px;
   }
 
 

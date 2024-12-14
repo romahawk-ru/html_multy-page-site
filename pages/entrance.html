@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="../styles/normalize.css">
   <link rel="stylesheet" href="../styles/style.css">
   <link rel="stylesheet" href="../styles/media.css">
-  <title>Все курсы</title>
+  <title>Вход</title>
 </head>
 <body>
 
@@ -22,68 +22,25 @@
       <div class="header-logo">
         <img class="header-logo-img" src="../img/site-logo.png" alt="Логотип сайта">
       </div>
-      <div class="header-search">
-        <form class="header-form" action="#">
-          <input class="header-form-input" type="search" name="search-input" placeholder="Например: Курсы по дизайну,программированию..." id="search">
-          <button class="header-form-input-btn" type="submit"></button>
-        </form>
+      <div class="footer-item header-menu-link">
+        <a class="footer-item-text" href="../index.html">Вернуться на главную</a>
       </div>
     </div>
   </header>
 
   <main class="main">
     <div class="container main-container">
-      <section class="courses">
-        <ul class="courses-list list-reset">
-          <li class="courses-item">
-            <a href="http://">
-              <h3 class="courses-item-title">
-                Разработчик программного обеспечения
-              </h3>
-              <img class="courses-item-img" src="../img/card-img-1.png" alt="Изображение карточки">
-            </a>
-          </li>
-          <li class="courses-item">
-            <a href="http://">
-              <h3 class="courses-item-title">
-                Full-Stack Разработчик
-              </h3>
-              <img class="courses-item-img" src="../img/card-img-6.png" alt="Изображение карточки">
-            </a>
-          </li>
-          <li class="courses-item">
-            <a href="http://">
-              <h3 class="courses-item-title">
-                Разработчик С++ с нуля
-              </h3>
-              <img class="courses-item-img" src="../img/card-img-2.png" alt="Изображение карточки">
-            </a>
-          </li>
-          <li class="courses-item">
-            <a href="http://">
-              <h3 class="courses-item-title">
-                Курсы 3D Дизайнера
-              </h3>
-              <img class="courses-item-img" src="../img/card-img-3.png" alt="Изображение карточки">
-            </a>
-          </li>
-          <li class="courses-item">
-            <a href="http://">
-              <h3 class="courses-item-title">
-                HTML Разработчик
-              </h3>
-              <img class="courses-item-img" src="../img/card-img-5.png" alt="Изображение карточки">
-            </a>
-          </li>
-          <li class="courses-item">
-            <a href="http://">
-              <h3 class="courses-item-title">
-                Архитектор ПО
-              </h3>
-              <img class="courses-item-img" src="../img/card-img-4.png" alt="Изображение карточки">
-            </a>
-          </li>
-        </ul>
+      <section class="entranse">
+        <div class="entrance-box">
+          <h3 class="entranse-title">Вход в профиль</h3>
+          <form class="entranse-form" action="">
+            <input class="entranse-input" type="text" name="first" placeholder="Электронная почта" required id="first">
+            <input class="entranse-input" type="password" name="password" placeholder="Пароль" required id="password">
+            <a class="entranse-link-password" href="http://">Забыли пароль?</a>
+            <button class="entranse-link entranse-btn btn-reset" type="submit" id="entranse-btn">Войти</button>
+            <a class="entranse-link" href="http://">Зарегистрироваться</a>
+          </form>
+        </div>
       </section>
     </div>
   </main>
@@ -104,9 +61,6 @@
             <img class="footer-item-link-img footer-item-link-img-dd" src="../img/logo-discord.png" alt="Логотип Discord">
             <span>#ZZ33</span>
           </a>
-        </div>
-        <div class="footer-item">
-          <a class="footer-item-text" href="../pages/about.html">О найшей компании</a>
         </div>
         <div class="footer-item">
           <a class="footer-item-link" href="tel:+79621663456">
@@ -131,7 +85,7 @@
         <a class="burger-item-link" href="http://">Зарегистрироваться</a>
       </li>
       <li class="burger-item">
-        <a class="burger-item-link" href="./pages/courses.html">Все курсы</a>
+        <a class="burger-item-link" href="./courses.html">Все курсы</a>
       </li>
     </ul>
     <button class="burger-menu-btn btn-reset" id="burger-close-btn"></button>
