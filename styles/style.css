@@ -605,6 +605,55 @@ a {
   background-color: #6680C3;
 }
 
+/* ARCHITECT Page */
+
+.architect-card {
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  background-color: #D9D9D9;
+}
+
+.architect-card-item {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  max-width: 760px;
+}
+
+.architect-card-item-title {
+  margin: 0 0 50px 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 96px;
+}
+
+.architect-card-text {
+  margin: 0 0 50px 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.architect-card-link {
+  margin: 0;
+  padding: 25px 60px;
+  display: block;
+  width: 100%;
+  max-width: 527px;
+  border-radius: 36px;
+  background-color: #6680C3;
+}
+
+.architect-card-item-img {
+  width: 100%;
+  border-radius: 10px;
+}
 
 /* footer */
 

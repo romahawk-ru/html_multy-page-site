@@ -73,6 +73,29 @@
     max-width: 450px;
   }
 
+  /* ARCHITECT Page */
+
+  .architect {
+    margin: 0 0 70px 0;
+  }
+
+  .architect-card-item {
+    max-width: 400px;
+  }
+
+  .architect-card-item-title {
+    font-size: 50px;
+  }
+
+  .architect-card-text {
+    font-size: 30px;
+  }
+
+  .architect-card-link {
+    max-width: 400px;
+    font-size: 33px;
+  }
+
   /* footer */
 
   .footer-item-text {
@@ -287,6 +310,41 @@
     padding: 20px 70px;
     font-size: 24px;
   }
+
+  /* ARCHITECT Page */
+
+  .architect-card {
+    padding: 14px;
+    justify-content: center;
+  }
+
+  .architect-card-item {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .architect-card-item-title {
+    margin: 0 0 25px 0;
+    font-size: 40px;
+  }
+
+  .architect-card-text {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+  }
+
+  .architect-card-item-img {
+    margin: 0 0 12px 0;
+  }
+
+  .architect-card-link {
+    padding: 25px 50px;
+    max-width: 290px;
+    border-radius: 36px;
+    font-size: 22px;
+  }
+
+
 
   /* Burger menu */
 
