@@ -96,6 +96,20 @@
     font-size: 33px;
   }
 
+  /* LEARN Page */
+
+  .learn-box-list {
+    margin: 0 0 30px 0;
+  }
+
+  .learn-box-item:last-child {
+    margin: 0;
+  }
+
+  .learn-box-item:nth-child(2) {
+    margin: 0 22px 0 0;
+  }
+
   /* footer */
 
   .footer-item-text {
@@ -344,6 +358,55 @@
     font-size: 22px;
   }
 
+  /* LEARN Page */
+
+  .learn-box-list {
+    margin: 0 0 40px 0;
+    flex-direction: column;
+  }
+
+  .learn-box-item {
+    margin: 0 0 22px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .learn-box-item:nth-child(2) {
+    margin: 0 0 22px 0;
+  }
+
+  .learn-box-item-title {
+    font-size: 22px;
+  }
+
+  .learn-box-item-title > span {
+    margin: 0 12px 0 0;
+    width: 25px;
+    height: 25px;
+  }
+
+  .learn-box-item-text {
+    margin: 0 0 0 40px;
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .learn-describe-title {
+    margin: 0 0 50px 0;
+    font-size: 32px;
+  }
+
+  .learn-describe-item {
+    margin: 0 0 63px 0;
+  }
+
+  .learn-describe-item-title {
+    font-size: 20px;
+  }
+
+  .learn-describe-item-text {
+    font-size: 18px;
+  }
 
 
   /* Burger menu */
