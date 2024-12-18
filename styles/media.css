@@ -110,6 +110,21 @@
     margin: 0 22px 0 0;
   }
 
+  /* ACCOUNT Page */
+
+  .account {
+    margin: 0 0 70px 0;
+  }
+
+  .account-course-item {
+    max-width: 300px;
+    justify-content: space-between;
+  }
+
+  .account-course-item-img {
+    max-height: 300px;
+  }
+
   /* footer */
 
   .footer-item-text {
@@ -408,6 +423,80 @@
     font-size: 18px;
   }
 
+  /* ACCOUNT Page */
+
+  .header-account-list {
+    align-items: flex-end;
+    flex-direction: column-reverse;
+  }
+
+  .header-account-link {
+    font-size: 24px;
+  }
+
+  .header-account-item:not(:last-child) {
+    margin: 0;
+  }
+
+  .header-account-item:first-child > .header-account-link:first-child {
+    margin: 0 24px 0 0;
+  }
+
+  .header-account-item-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header-account-item-user-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .account-progress-box {
+    padding: 20px 20px;
+    flex-direction: column-reverse;
+  }
+
+  .account-progress-box-title {
+    font-size: 32px;
+  }
+
+  .account-progress-box-img {
+    margin: 0 0 15px 0;
+    max-width: 100%;
+  }
+
+  .account-course-title {
+    font-size: 32px;
+  }
+
+  .account-course-list {
+    flex-direction: column;
+  }
+
+  .account-course-item {
+    margin: 0 0 15px 0;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+
+  .account-course-item-bottom {
+    width: 100%;
+    max-width: 230px;
+  }
+
+  .account-course-item-img {
+    margin: 0 15px 0 0;
+    max-width: 150px;
+  }
+
+  .account-course-item-title {
+    font-size: 32px;
+  }
+  
 
   /* Burger menu */
 
